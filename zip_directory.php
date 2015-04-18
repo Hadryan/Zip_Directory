@@ -1,5 +1,16 @@
 <?php
 
+/*
+*	Backup Files
+*
+* Back up all your files in the 
+* base and sub-directories.
+*
+* @author: Tech Dan
+* @website: https://github.com/TechhDan/Zip_Directory/blob/master/zip_directory.php
+*
+*/ 
+
 $zip = new ZipArchive();
 $zip->open('backup.zip', ZipArchive::CREATE);
 
